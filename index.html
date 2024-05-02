@@ -1,0 +1,31 @@
+<!DOTYPE html>
+<html>
+	<head>
+		<title>weather application</title>
+		<style>
+	body{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	height:90vh;
+	background-color:blue;
+	}
+	.weather{
+	background-color:#fff;
+	padding:20px;
+	border-radius:8px;
+	}
+	</style>
+	</head>
+	<body>
+	<div class="weather">
+		<input type="text" placeholder="search country...">
+		<button onclick="search()">search</button>
+		<img src="">
+		<p class="temp"></p>
+		<p class="description"></p>
+		<p class="wind"></p>
+	</div>
+	<script src="app.js"></script>
+	</body>
+</html>
